@@ -1,7 +1,7 @@
 # file name: convert_SQLDC_2_VSCC.ps1
 #
 #Windows Local Username
-$localuser = "foobar"
+$localuser = "windowsusername"
 # Path to JSON-Datei
 $jsonFilePath = "C:\Users\$($localuser)\sqldeveloper_export.json"
 # Base dir for VSC connections
